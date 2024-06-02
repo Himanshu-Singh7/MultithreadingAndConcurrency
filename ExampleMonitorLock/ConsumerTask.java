@@ -1,4 +1,4 @@
-package ExapleMonitorLock;
+package ExampleMonitorLock;
 
 public class ConsumerTask implements Runnable{
     SharedResource sharedResource ;

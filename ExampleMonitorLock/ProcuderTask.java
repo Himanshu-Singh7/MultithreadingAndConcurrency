@@ -1,4 +1,4 @@
-package ExapleMonitorLock;
+package ExampleMonitorLock;
 
 public class ProcuderTask implements  Runnable{
 
