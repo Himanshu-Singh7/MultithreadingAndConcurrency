@@ -7,7 +7,7 @@ public class SharedResource {
     public void produce(ReentrantLock lock){
 
         try {
-            lock.lock();
+           lock.lock();
             System.out.println("Lock Acquired By: " + Thread.currentThread().getName());
             isAvailable = true;
             Thread.sleep(8000);
